@@ -1,0 +1,12 @@
+img {
+    width:150px;
+}
+.dropdown-menu.show {
+    position: absolute;
+    inset: 0px auto auto 0px;
+    margin: 0px;
+    transform: translate3d(-66px, 31px, 0px);
+    .dropdown-item {
+        font-weight: 500;
+    }
+}

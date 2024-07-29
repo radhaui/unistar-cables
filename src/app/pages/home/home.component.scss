@@ -1,0 +1,37 @@
+
+.custome-table {
+    .th-width {
+        width:18%;
+    }
+    th{
+        width: 11.7%;
+    }
+}
+table {
+    thead th {
+        background-color: #4c8bc0;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+    tbody tr {
+        th {
+            background-color: #fff;
+            font-weight: 500;
+        }
+    }
+}
+.accordion {
+    table {
+        th {
+            width: 18%;
+            font-size: 12px;
+            font-weight: 500;
+            padding: 5px;
+            background-color: #FFFFFF;
+            color: #000;
+        }
+        td {
+            width:11.7%;
+        }
+    }
+}

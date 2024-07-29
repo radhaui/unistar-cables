@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+$theme-colors: (
+  "primary": #005aa5, // Example: Change primary color to Tomato
+  
+);
+@import "bootstrap/scss/bootstrap";
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .fs-12 {
+    font-size: 12px;
+  }

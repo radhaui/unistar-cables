@@ -1,0 +1,21 @@
+.login-page {
+    background: url("../../../assets/images/login-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+    justify-content: end;
+    form {
+        font-size: 12px;
+        font-weight: 500;
+        input {
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 576px) { 
+    .login-page {
+        justify-content: center;
+
+    }
+ }
