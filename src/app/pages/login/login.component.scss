@@ -4,6 +4,9 @@
     background-position: 100%;
     background-size: cover;
     justify-content: end;
+    .login-container {
+        margin-right: 50px;
+    }
     form {
         font-size: 12px;
         font-weight: 500;
@@ -15,6 +18,9 @@
 
 @media (max-width: 576px) { 
     .login-page {
+        .login-container {
+            margin-right: 0px;
+        }
         justify-content: center;
 
     }

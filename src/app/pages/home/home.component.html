@@ -1,186 +1,273 @@
 <div class="p-3">
     <div class="align-items-center d-felx d-flex justify-content-between page-header mb-3">
         <h5 class="text-center text-primary mb-0">Cable Design Module</h5>
-        <button class="btn btn-outline-primary btn-sm fs-12">
+        <button class="btn btn-outline-primary btn-sm fs-12" (click)="downloadPDF()">
             <i class="fa fa-print me-1" aria-hidden="true"></i>
             Print
         </button>
     </div>
-  <div class="table-responsive">
-    <table class="table table-bordered">
-      <thead class="thead-light">
-        <tr>
-          <th scope="col" class="fw-semibold fs-12">STANDARD</th>
-          <th scope="col" class="fw-semibold fs-12">SIZE (MM2)</th>
-          <th scope="col" class="fw-semibold fs-12">NO OF CORE</th>
-          <th scope="col" class="fw-semibold fs-12">VOLTAGE_GRADE</th>
-          <th scope="col" class="fw-semibold fs-12">CONDUCTOR_MATERIAL</th>
-          <th scope="col" class="fw-semibold fs-12">INSULATION</th>
-          <th scope="col" class="fw-semibold fs-12">INNER SHEATH_MAT</th>
-          <th scope="col" class="fw-semibold fs-12">ARMOUR TYPE</th>
-          <th scope="col" class="fw-semibold fs-12">OUTER SHEATH_MAT</th>
-          <th scope="col" class="fw-semibold fs-12">MAT_CODE</th>
-        </tr>
-      </thead>
-      <tbody class="fw-normal fs-12">
-        <tr>
-          <td>IS 7098 (Part 2) : 2011</td>
-          <td>300</td>
-          <td>3</td>
-          <td>6.35/11 kV</td>
-          <td>AL</td>
-          <td>XLPE</td>
-          <td>PVC ST2</td>
-          <td>GI FLAT STRIP (Method 'a')</td>
-          <td>FRLSH PVC ST2</td>
-          <td>A2XFY</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <div class="table-responsive">
-    <table class="table table-bordered custome-table mb-0">
-      <thead class="thead-light">
-        <tr>
-          <th scope="col" class="fw-bold fs-12 text-center th-width"></th>
-          <th scope="col" class="fw-semibold fs-12">FIC_DIA</th>
-          <th scope="col" class="fw-semibold fs-12">MFG_DIA (MM)</th>
-          <th scope="col" class="fw-semibold fs-12">AREA (MM2)</th>
-          <th scope="col" class="fw-semibold fs-12">MATERIAL_GRADE</th>
-          <th scope="col" class="fw-semibold fs-12">DENSITY (G/CC)</th>
-          <th scope="col" class="fw-semibold fs-12">Stage 6</th>
-          <th scope="col" class="fw-semibold fs-12">CONTENT (KG/KM)</th>
-        </tr>
-      </thead>
-      <tbody class="fw-normal fs-12">
-        <tr>
-          <td  colspan="8" class="p-0">
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item rounded-0">
-                <h2 class="accordion-header">
-                  <button class="accordion-button bg-light collapsed p-2 fs-12 fw-medium shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse0"
-                    aria-expanded="false" aria-controls="collapse0">
-                    Conductor
-                  </button>
-                </h2>
-                <div id="collapse0" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                  <table class="table table-bordered mb-0">
-                      <tbody>
-                          <tr>
-                          <th>Meterial</th>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          </tr>
-                          <tr>
-                          <th>Type Of Conductor</th>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          </tr>
-                          <tr>
-                          <th>Form/Shape Of conductor</th>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          </tr>
-                          <tr>
-                          <th>Class</th>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          </tr>
-                          <tr>
-                          <th>Resistance At 20°C (Ohm/Km)</th>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          </tr>
-                          <tr>
-                          <th>Number Of Wires (NOC.)</th>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          </tr>
-                          <tr>
-                          <th>Number Of Wires As Per Is 8130/Iec 60228 (Min.)</th>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          </tr>
-                          <tr>
-                          <th>Nom Dia of Wire (mm)</th>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          </tr>
-                          <tr>
-                          <th>Weight Of Conductor Per Core</th>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          </tr>
-                          <tr>
-                          <th>E.t.c (Xxxx)</th>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          <td></td>
-                          </tr>
-                      </tbody>
-                    </table>
-                </div>
-              </div>
-              <div class="accordion-item rounded-0">
-                <h2 class="accordion-header">
-                  <button class="accordion-button bg-light collapsed p-2 fs-12 fw-medium shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
-                    aria-expanded="false" aria-controls="collapse1">
-                    Binder Tape 1 
-                  </button>
-                </h2>
-                <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
-                  <div class="table-responsive">
+  <div  id="contentToConvert">
+    <div class="table-responsive">
+      <table class="table table-bordered">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col" class="fw-semibold fs-12">Standard</th>
+            <th scope="col" class="fw-semibold fs-12">Size (MM2)</th>
+            <th scope="col" class="fw-semibold fs-12">NO Of Core</th>
+            <th scope="col" class="fw-semibold fs-12">Voltage Grade</th>
+            <th scope="col" class="fw-semibold fs-12">Conductor Material/th>
+            <th scope="col" class="fw-semibold fs-12">Insulation</th>
+            <th scope="col" class="fw-semibold fs-12">Inner Sheath Mat</th>
+            <th scope="col" class="fw-semibold fs-12">Armour Type</th>
+            <th scope="col" class="fw-semibold fs-12">Outer Sheath Mat</th>
+            <th scope="col" class="fw-semibold fs-12">Mat Code</th>
+          </tr>
+        </thead>
+        <tbody class="fw-normal fs-12">
+          <tr>
+            <td>IS 7098 (Part 2) : 2011</td>
+            <td>300</td>
+            <td>3</td>
+            <td>6.35/11 kV</td>
+            <td>AL</td>
+            <td>XLPE</td>
+            <td>PVC ST2</td>
+            <td>GI FLAT STRIP (Method 'a')</td>
+            <td>FRLSH PVC ST2</td>
+            <td>A2XFY</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="table-responsive">
+      <table class="table table-bordered custome-table mb-0">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col" class="fw-bold fs-12 text-center th-width"></th>
+            <th scope="col" class="fw-semibold fs-12">Fic_dia</th>
+            <th scope="col" class="fw-semibold fs-12">Mfg_dia (Mm)</th>
+            <th scope="col" class="fw-semibold fs-12">Area (Mm2)</th>
+            <th scope="col" class="fw-semibold fs-12">Material_grade</th>
+            <th scope="col" class="fw-semibold fs-12">Density (G/cc)</th>
+            <th scope="col" class="fw-semibold fs-12">Stage 6</th>
+            <th scope="col" class="fw-semibold fs-12">Content (Kg/km)</th>
+          </tr>
+        </thead>
+        <tbody class="fw-normal fs-12">
+          <tr>
+            <td  colspan="8" class="p-0">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item rounded-0">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button bg-light collapsed p-2 fs-12 fw-medium shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse0"
+                      aria-expanded="false" aria-controls="collapse0">
+                      Conductor
+                    </button>
+                  </h2>
+                  <div id="collapse0" class="accordion-collapse collapse">
                     <table class="table table-bordered mb-0">
-                      <tbody>
+                        <tbody>
+                            <tr>
+                            <th>Meterial</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                            <tr>
+                            <th>Type Of Conductor</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                            <tr>
+                            <th>Form/Shape Of conductor</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                            <tr>
+                            <th>Class</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                            <tr>
+                            <th>Resistance At 20°C (Ohm/Km)</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                            <tr>
+                            <th>Number Of Wires (NOC.)</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                            <tr>
+                            <th>Number Of Wires As Per Is 8130/Iec 60228 (Min.)</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                            <tr>
+                            <th>Nom Dia of Wire (mm)</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                            <tr>
+                            <th>Weight Of Conductor Per Core</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                            <tr>
+                            <th>E.t.c (Xxxx)</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                        </tbody>
+                      </table>
+                  </div>
+                </div>
+                <div class="accordion-item rounded-0">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button bg-light collapsed p-2 fs-12 fw-medium shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
+                      aria-expanded="false" aria-controls="collapse1">
+                      Binder Tape 1 
+                    </button>
+                  </h2>
+                  <div id="collapse1" class="accordion-collapse collapse" style="">
+                    <div class="table-responsive">
+                      <table class="table table-bordered mb-0">
+                        <tbody>
+                            <tr>
+                            <th>Material</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                            <tr>
+                            <th>Min Thk (Mm)</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                            <tr>
+                            <th>Mfg_thk (Mm)</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                            <tr>
+                            <th>Tape_width (Mm)</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                            <tr>
+                            <th>Overlap (%)</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                            <tr>
+                            <th>No Of Tapes</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                            <tr>
+                            <th>E.t.c (Xxxx)</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item rounded-0">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button bg-light collapsed p-2 fs-12 fw-medium shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3"
+                      aria-expanded="false" aria-controls="collapse3">
+                      Binder Tape 2 
+                    </button>
+                  </h2>
+                  <div id="collapse3" class="accordion-collapse collapse" style="">
+                    <div class="table-responsive">
+                      <table class="table table-bordered mb-0">
+                        <tbody>
                           <tr>
                           <th>Material</th>
                           <td></td>
@@ -252,205 +339,23 @@
                           <td></td>
                           </tr>
                       </tbody>
-                    </table>
+                      </table>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="accordion-item rounded-0">
-                <h2 class="accordion-header">
-                  <button class="accordion-button bg-light collapsed p-2 fs-12 fw-medium shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3"
-                    aria-expanded="false" aria-controls="collapse3">
-                    Binder Tape 2 
-                  </button>
-                </h2>
-                <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
-                  <div class="table-responsive">
-                    <table class="table table-bordered mb-0">
-                      <tbody>
-                        <tr>
-                        <th>Material</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Min Thk (Mm)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Mfg_thk (Mm)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Tape_width (Mm)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Overlap (%)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>No Of Tapes</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>E.t.c (Xxxx)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                    </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item rounded-0">
-                <h2 class="accordion-header">
-                  <button class="accordion-button bg-light collapsed p-2 fs-12 fw-medium shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4"
-                    aria-expanded="false" aria-controls="collapse4">
-                    Conductor Screen V
-                  </button>
-                </h2>
-                <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
-                  <div class="table-responsive">
-                    <table class="table table-bordered mb-0">
-                      <tbody>
-                        <tr>
-                        <th>Material</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Approx./min. Thickness (Mm)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Mfg. Thickness(Mm)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>E.t.c (Xxxx)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                    </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item rounded-0">
-                <h2 class="accordion-header">
-                  <button class="accordion-button bg-light collapsed p-2 fs-12 fw-medium shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5"
-                    aria-expanded="false" aria-controls="collapse5">
-                    Insuation  
-                  </button>
-                </h2>
-                <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
-                  <div class="table-responsive">
-                    <table class="table table-bordered mb-0">
-                      <tbody>
-                        <tr>
-                        <th>Material</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Reference Standard</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Nom. Thickness(Mm)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Min. Thickness (Mm)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                          <th>Mfg. Thickness (Mm)</th>
+                <div class="accordion-item rounded-0">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button bg-light collapsed p-2 fs-12 fw-medium shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4"
+                      aria-expanded="false" aria-controls="collapse4">
+                      Conductor Screen V
+                    </button>
+                  </h2>
+                  <div id="collapse4" class="accordion-collapse collapse" style="">
+                    <div class="table-responsive">
+                      <table class="table table-bordered mb-0">
+                        <tbody>
+                          <tr>
+                          <th>Material</th>
                           <td></td>
                           <td></td>
                           <td></td>
@@ -460,7 +365,93 @@
                           <td></td>
                           </tr>
                           <tr>
-                            <th>E.t.c (Xxxx)</th>
+                          <th>Approx./min. Thickness (Mm)</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                          <tr>
+                          <th>Mfg. Thickness(Mm)</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                          <tr>
+                          <th>E.t.c (Xxxx)</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                      </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item rounded-0">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button bg-light collapsed p-2 fs-12 fw-medium shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5"
+                      aria-expanded="false" aria-controls="collapse5">
+                      Insuation  
+                    </button>
+                  </h2>
+                  <div id="collapse5" class="accordion-collapse collapse" style="">
+                    <div class="table-responsive">
+                      <table class="table table-bordered mb-0">
+                        <tbody>
+                          <tr>
+                          <th>Material</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                          <tr>
+                          <th>Reference Standard</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                          <tr>
+                          <th>Nom. Thickness(Mm)</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                          <tr>
+                          <th>Min. Thickness (Mm)</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                          <tr>
+                            <th>Mfg. Thickness (Mm)</th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -469,119 +460,205 @@
                             <td></td>
                             <td></td>
                             </tr>
-                    </tbody>
-                    </table>
+                            <tr>
+                              <th>E.t.c (Xxxx)</th>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              </tr>
+                      </tbody>
+                      </table>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="accordion-item rounded-0">
-                <h2 class="accordion-header">
-                  <button class="accordion-button bg-light collapsed p-2 fs-12 fw-medium shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6"
-                    aria-expanded="false" aria-controls="collapse6">
-                    Insulation Screen  
-                  </button>
-                </h2>
-                <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
-                  <div class="table-responsive">
-                    <table class="table table-bordered mb-0">
-                      <tbody>
-                        <tr>
-                        <th>Material</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Approx./min. Thickness (Mm)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Mfg. Thickness(Mm)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>E.t.c (Xxxx)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                    </tbody>
-                    </table>
+                <div class="accordion-item rounded-0">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button bg-light collapsed p-2 fs-12 fw-medium shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6"
+                      aria-expanded="false" aria-controls="collapse6">
+                      Insulation Screen  
+                    </button>
+                  </h2>
+                  <div id="collapse6" class="accordion-collapse collapse" style="">
+                    <div class="table-responsive">
+                      <table class="table table-bordered mb-0">
+                        <tbody>
+                          <tr>
+                          <th>Material</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                          <tr>
+                          <th>Approx./min. Thickness (Mm)</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                          <tr>
+                          <th>Mfg. Thickness(Mm)</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                          <tr>
+                          <th>E.t.c (Xxxx)</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                      </tbody>
+                      </table>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="accordion-item rounded-0">
-                <h2 class="accordion-header">
-                  <button class="accordion-button bg-light collapsed p-2 fs-12 fw-medium shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7"
-                    aria-expanded="false" aria-controls="collapse7">
-                    Bedding Tape  
-                  </button>
-                </h2>
-                <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
-                  <div class="table-responsive">
-                    <table class="table table-bordered mb-0">
-                      <tbody>
-                        <tr>
-                        <th>Material</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Min Thk (Mm)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Mfg_thk (Mm)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Tape_width (Mm)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
+                <div class="accordion-item rounded-0">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button bg-light collapsed p-2 fs-12 fw-medium shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7"
+                      aria-expanded="false" aria-controls="collapse7">
+                      Bedding Tape  
+                    </button>
+                  </h2>
+                  <div id="collapse7" class="accordion-collapse collapse" style="">
+                    <div class="table-responsive">
+                      <table class="table table-bordered mb-0">
+                        <tbody>
+                          <tr>
+                          <th>Material</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                          <tr>
+                          <th>Min Thk (Mm)</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                          <tr>
+                          <th>Mfg_thk (Mm)</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                          <tr>
+                          <th>Tape_width (Mm)</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                          <tr>
+                            <th>Overlap (%)</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                            <tr>
+                              <th>No Of Tapes</th>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              </tr>
+                              <tr>
+                                <th>E.t.c (Xxxx)</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                      </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item rounded-0">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button bg-light collapsed p-2 fs-12 fw-medium shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8"
+                      aria-expanded="false" aria-controls="collapse8">
+                      Metallic Screen
+                    </button>
+                  </h2>
+                  <div id="collapse8" class="accordion-collapse collapse" style="">
+                    <div class="table-responsive">
+                      <table class="table table-bordered mb-0">
+                        <tbody>
+                          <tr>
+                          <th>Material</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                          <tr>
+                          <th>Approx./min. Thickness (Mm)</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                          <tr>
+                          <th>Mfg. Thickness(Mm)</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                          <tr>
                           <th>Overlap (%)</th>
                           <td></td>
                           <td></td>
@@ -592,7 +669,7 @@
                           <td></td>
                           </tr>
                           <tr>
-                            <th>No Of Tapes</th>
+                            <th>Width (Mm)</th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -602,7 +679,7 @@
                             <td></td>
                             </tr>
                             <tr>
-                              <th>E.t.c (Xxxx)</th>
+                              <th>Lay_factor</th>
                               <td></td>
                               <td></td>
                               <td></td>
@@ -611,64 +688,34 @@
                               <td></td>
                               <td></td>
                               </tr>
-                    </tbody>
-                    </table>
+                              <tr>
+                                <th>E.t.c (Xxxx)</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                      </tbody>
+                      </table>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="accordion-item rounded-0">
-                <h2 class="accordion-header">
-                  <button class="accordion-button bg-light collapsed p-2 fs-12 fw-medium shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8"
-                    aria-expanded="false" aria-controls="collapse8">
-                    Metallic Screen
-                  </button>
-                </h2>
-                <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
-                  <div class="table-responsive">
-                    <table class="table table-bordered mb-0">
-                      <tbody>
-                        <tr>
-                        <th>Material</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Approx./min. Thickness (Mm)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Mfg. Thickness(Mm)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Overlap (%)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                          <th>Width (Mm)</th>
+                <div class="accordion-item rounded-0">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button bg-light collapsed p-2 fs-12 fw-medium shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9"
+                      aria-expanded="false" aria-controls="collapse9">
+                      Metallic Tape Binder
+                    </button>
+                  </h2>
+                  <div id="collapse9" class="accordion-collapse collapse" style="">
+                    <div class="table-responsive">
+                      <table class="table table-bordered mb-0">
+                        <tbody>
+                          <tr>
+                          <th>Material</th>
                           <td></td>
                           <td></td>
                           <td></td>
@@ -678,83 +725,7 @@
                           <td></td>
                           </tr>
                           <tr>
-                            <th>Lay_factor</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            </tr>
-                            <tr>
-                              <th>E.t.c (Xxxx)</th>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              </tr>
-                    </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item rounded-0">
-                <h2 class="accordion-header">
-                  <button class="accordion-button bg-light collapsed p-2 fs-12 fw-medium shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9"
-                    aria-expanded="false" aria-controls="collapse9">
-                    Metallic Tape Binder
-                  </button>
-                </h2>
-                <div id="collapse9" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
-                  <div class="table-responsive">
-                    <table class="table table-bordered mb-0">
-                      <tbody>
-                        <tr>
-                        <th>Material</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Min Thk (Mm)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Mfg_thk (Mm)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Tape_width (Mm)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                          <th>Overlap (%)</th>
+                          <th>Min Thk (Mm)</th>
                           <td></td>
                           <td></td>
                           <td></td>
@@ -764,83 +735,7 @@
                           <td></td>
                           </tr>
                           <tr>
-                            <th>No Of Tapes</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            </tr>
-                            <tr>
-                              <th>E.t.c (Xxxx)</th>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              </tr>
-                    </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item rounded-0">
-                <h2 class="accordion-header">
-                  <button class="accordion-button bg-light collapsed p-2 fs-12 fw-medium shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10"
-                    aria-expanded="false" aria-controls="collapse10">
-                    Metallic Tape Binder
-                  </button>
-                </h2>
-                <div id="collapse10" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
-                  <div class="table-responsive">
-                    <table class="table table-bordered mb-0">
-                      <tbody>
-                        <tr>
-                        <th>Material</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Min Thk (Mm)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Mfg_thk (Mm)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                        <th>Tape_width (Mm)</th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        </tr>
-                        <tr>
-                          <th>Overlap (%)</th>
+                          <th>Mfg_thk (Mm)</th>
                           <td></td>
                           <td></td>
                           <td></td>
@@ -850,7 +745,17 @@
                           <td></td>
                           </tr>
                           <tr>
-                            <th>No Of Tapes</th>
+                          <th>Tape_width (Mm)</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                          <tr>
+                            <th>Overlap (%)</th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -860,7 +765,7 @@
                             <td></td>
                             </tr>
                             <tr>
-                              <th>E.t.c (Xxxx)</th>
+                              <th>No Of Tapes</th>
                               <td></td>
                               <td></td>
                               <td></td>
@@ -869,26 +774,122 @@
                               <td></td>
                               <td></td>
                               </tr>
-                    </tbody>
-                    </table>
+                              <tr>
+                                <th>E.t.c (Xxxx)</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                      </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item rounded-0">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button bg-light collapsed p-2 fs-12 fw-medium shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10"
+                      aria-expanded="false" aria-controls="collapse10">
+                      Metallic Tape Binder
+                    </button>
+                  </h2>
+                  <div id="collapse10" class="accordion-collapse collapse" style="">
+                    <div class="table-responsive">
+                      <table class="table table-bordered mb-0">
+                        <tbody>
+                          <tr>
+                          <th>Material</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                          <tr>
+                          <th>Min Thk (Mm)</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                          <tr>
+                          <th>Mfg_thk (Mm)</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                          <tr>
+                          <th>Tape_width (Mm)</th>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          </tr>
+                          <tr>
+                            <th>Overlap (%)</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                            <tr>
+                              <th>No Of Tapes</th>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                              </tr>
+                              <tr>
+                                <th>E.t.c (Xxxx)</th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                </tr>
+                      </tbody>
+                      </table>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <th>Core Identification </th>
-          <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-        </tr>
-      </tbody>
-    </table>
+            </td>
+          </tr>
+          <tr>
+            <th>Core Identification </th>
+            <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
-  
 </div>
